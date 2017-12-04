@@ -1,0 +1,7 @@
+syntax = "proto3";
+message BaseInfo
+{
+ 	int32 UserID=1;
+	int32 GameID=2;
+	string NickName=3;
+}
